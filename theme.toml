@@ -1,0 +1,13 @@
+name = "Samuel J. Keller"
+license = "MIT"
+# licenselink = "https://github.com/samueljkeller/blob/master/LICENSE"
+description = "Simple theme for resume created using Tailwind CSS"
+homepage = "https://github.com/samueljkeller/"
+# demosite = "https://?"
+tags = ["portfolio", "resume", "simple", "onepage", "tailwindcss"]
+features = ["responsive", "tailwindcss"]
+min_version = "0.146.3"
+
+[author]
+  name = "Samuel J. Keller"
+  homepage = "https://www.samueljkeller.com/"

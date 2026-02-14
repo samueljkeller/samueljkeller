@@ -1,0 +1,258 @@
+baseURL = "http://samueljkeller.com/"
+languageCode = "en-us"
+disableKinds = ["taxonomy"]
+
+[build]
+    writeStats = true
+
+[params]
+    title = "Samuel J. Keller"
+    author = "Samuel J. Keller"
+    description = "About Me"
+    copyright = "Custom copyright message"
+    theme = "dark" # `dark` or `light`
+
+    # Profile section
+    [params.profile]
+        name = "Samuel J. Keller"
+        title = "Driving technical excellence & team growth"
+        photo = "images/profile.jpg"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        icon = "bi bi-linkedin"
+        url = "https://www.linkedin.com/in/samkeller/"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        icon = "bi bi-github"
+        url = "https://github.com/samueljkeller"
+        title = "GitHub"
+		
+        [[params.social.list]]
+        icon = "bi bi-twitter-x"
+        url = "https://x.com/samueljkeller"
+        title = "X"
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        college = "LCCC"
+
+        [[params.education.list]]
+        college = "Kent State University"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "AI"
+
+        [[params.hobbies.list]]
+        interest = "Cooking"
+
+        [[params.hobbies.list]]
+        interest = "Traveling"
+		
+		[[params.hobbies.list]]
+        interest = "Placeholder"
+
+        [[params.hobbies.list]]
+        interest = "Tabletop Gaming"
+        
+        [[params.hobbies.list]]
+        interest = "Martial Arts"
+
+    # Certifications section
+    [params.certifications]
+        title = "Certifications"
+
+        [[params.certifications.list]]
+        certification = "VMware VCP-DCV 2023"
+
+        [[params.certifications.list]]
+        certification = "VMware VCP-DCV 6"
+        
+        [[params.certifications.list]]
+        certification = "AWS Cloud Practioner"
+
+        [[params.certifications.list]]
+        certification = "Microsoft Azure Fundamentals"
+
+        [[params.certifications.list]]
+        certification = "Terraform Associate"
+
+        [[params.certifications.list]]
+        certification = "Turbonomic Associate"
+
+        [[params.certifications.list]]
+        certification = "Citrix CCP-V"
+
+        [[params.certifications.list]]
+        certification = "FinOps Practitioner"
+
+        [[params.certifications.list]]
+        certification = "FinOps Engineer"
+		
+        [[params.certifications.list]]
+        certification = "Microsoft MCSE"
+
+        [[params.certifications.list]]
+        certification = "Microsoft MCP"
+
+        [[params.certifications.list]]
+        certification = "Microsoft MCT"
+
+        [[params.certifications.list]]
+        certification = "Microsoft MCAS"
+
+        [[params.certifications.list]]
+        certification = "Microsoft MCAS Instructor"
+
+        [[params.certifications.list]]
+        certification = "Microsoft MOS Master Instructor"
+
+        [[params.certifications.list]]
+        certification = "CompTIA A+"
+
+
+    [params.aboutme]
+        description = "I am a Senior Cloud Infrastructure Engineer at Hyland Software, a leading global content services provider with a successful track record of delivering secure, cloud-based solutions to thousands of customers. I leverage my experience to drive the strategic vision and direction for the Cloud Platform, which hosts Hyland's flagship software product globally. With extensive experience both as an individual contributor and as a team leader, I have engineered and architected world-class cloud platforms in both private and public clouds, employing the most efficient and cost-effective methods possible. I am committed to creating opportunities for both people and technology through mentorship and volunteer service.  An infrastructure engineer at heart, problem-solver by nature, and creative entrepreneur in spirit, I channel curiosity, bold ideas, and out-of-the-box thinking into resilient, scalable platforms that power reliable—and often unconventional—operations. Technical leadership means rolling up my sleeves: troubleshooting clusters one moment, aligning innovative cloud strategy the next. As a deliberate generalist and T-shaped professional—part cloud engineer/architect, part team builder—I bridge datacenter-to-cloud transitions, hybrid environments, and startup challenges to scale infrastructure, mentor platform teams, and champion secure, cost-effective, inventive design. My approach rests on iterative improvement through experimentation and feedback, radical transparency to build trust from outages to wins, and empathy to harness diverse perspectives for smarter outcomes. My superpower is versatility fueled by entrepreneurial creativity: designing private cloud (Cisco UCS, VMware vSphere, OpenShift, NetApp, Cisco networking), orchestrating public/hybrid cloud footprints (AWS, Azure), automating with PowerShell/Python, and provisioning via Terraform IaC to reduce toil and enable effortless scale. Infrastructure is foundational, but I obsess over teams—fostering psychological safety, blameless postmortems, continuous learning, and creative risk-taking to drive reliability and breakthrough innovation."
+
+    # Experiences section
+    [params.experiences]
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Team Lead - Senior Cloud Engineer "
+        dates = "2012 - *Present*"
+		link = "https://www.hyland.com/"
+        company = "Hyland Software"
+        details = "Lead Infrastructure Engineering efforts in Global Cloud Services, overseeing the design, planning, procurement, installation, configuration, management, and support of physical and virtual infrastructure across 20+ data centers and public cloud environments. Serve as a key contributor and team lead on the Global Cloud Engineering Transformation team, delivering strategic technical recommendations to executive leadership that align hybrid and multi-cloud infrastructure with business objectives while establishing enterprise-wide standards and clear architectural guardrails for the Hyland Cloud. Act as an organization leader in adopting FinOps practices, driving cost optimization, cloud financial governance, and intelligent automation across engineering and operations teams. Drive thought leadership through the development of reference architectures, evaluation of emerging technologies, and promotion of best practices in hybrid/multi-cloud strategy."
+
+        [[params.jobs.list]]
+        position = "Windows Server Engineer"
+        dates = "2010 - 2012"
+		link = "https://www.huntington.com"
+        company = "FirstMerit Bank"
+        details = "As a key member of the Microsoft team, planned, installed, configured, and supported core Microsoft infrastructure technologies, including Windows Server 2003/2008, Windows 7, Active Directory, Microsoft Clustering, Microsoft SQL Server, Microsoft Exchange, System Center Configuration Manager (SCCM), Operating System Deployment (OSD), Microsoft Deployment Toolkit (MDT), and System Center Operations Manager (SCOM). Additional responsibilities encompassed VMware virtualization, Websense web filtering/proxy solutions, Citrix Presentation Server for virtual desktops and applications, and various supporting infrastructure applications."
+
+        [[params.jobs.list]]
+        position = "Network Systems Specialist"
+        dates = "2005 - 2010"
+		link = "https://www.jonesday.com"
+        company = "Jones Day"
+        details = "Served as a core member of the Global Network Operations Team supporting 47 law offices across North America, Latin America, Europe, Asia, and the Middle East, delivering configuration, administration, and tier-3 support for enterprise LAN/WAN infrastructures. Configured and supported advanced LAN technologies (MPLS, Gigabit and Fast Ethernet) and WAN services (MPLS, VoIP, IP VPN); installed, configured, and troubleshot Nortel/Cisco switches, Cisco routers, and Cisco wireless LAN systems. Designed, deployed, and maintained HP/IBM server hardware; managed Active Directory; implemented virtualization; oversaw server builds, imaging, and global deployments; and managed and supported Citrix Presentation Server environments for virtual desktop infrastructure (VDI) and published applications."
+
+    # Projects section
+    [params.projects]
+        title = "Projects & Speaking Engagements"
+
+        [[params.projects.list]]
+        title = "AWS re:Invent 2023 - Scaling FinOps with a holistic approach to resource optimization"
+        url = "https://www.youtube.com/watch?v=G8m2qctcXAY"
+        description = "With increasing scale and diverse technology deployments, cloud environments are becoming more complex by the day, requiring a disciplined approach to prevent an accumulation of waste. Learn how I lead Hyland Software to exceptional cost efficiency for their entire cloud footprint."
+		
+		[[params.projects.list]]
+        title = "CloudSurge Hackathon Winning Submission Presentation"
+        url = "https://www.youtube.com/watch?v=WaRfZgtWw04"
+        description = "CloudSurge is a proof-of-concept (PoC) platform for managing an AWS EC2 instance's power state via a web interface used for the winning hackathon submission."
+
+        [[params.projects.list]]
+        title = "Gartner IT Symposium FinOps Engineering Session"
+        url = "https://www.linkedin.com/posts/samkeller_gartnersym-finops-turbonomic-activity-7120575699643420672-H77j?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAGGLtkBNJ7VFJmIqykQ6CbxrPZ1CP5A1-8"
+        description = "Maximizing the Business Value of Hybrid and Multi-Cloud with FinOps"
+
+    # Skills section
+    [params.skills]
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "SiteOps"
+        skillrating = 90 # out of 100
+
+        [[params.skills.list]]
+        skill = "CloudOps"
+        skillrating = 65 # out of 100
+
+        [[params.skills.list]]
+        skill = "FinOps"
+        skillrating = 87 # out of 100
+
+        [[params.skills.list]]
+        skill = "DevOps"
+        skillrating = 50 # out of 100
+
+        [[params.skills.list]]
+        skill = "AIOps"
+        skillrating = 50 # out of 100
+
+        [[params.skills.list]]
+        skill = "Leadership"
+        skillrating = 98
+        
+        [[params.skills.list]]
+        skill = "VMware"
+        skillrating = 98 # out of 100
+
+        [[params.skills.list]]
+        skill = "Cisco UCS"
+        skillrating = 95
+
+        [[params.skills.list]]
+        skill = "NetApp"
+        skillrating = 80
+
+        [[params.skills.list]]
+        skill = "Citrix"
+        skillrating = 95
+
+        [[params.skills.list]]
+        skill = "Microsoft"
+        skillrating = 85
+
+        [[params.skills.list]]
+        skill = "Linux"
+        skillrating = 45
+
+        [[params.skills.list]]
+        skill = "Turbonomic"
+        skillrating = 98
+
+        [[params.skills.list]]
+        skill = "GitHub"
+        skillrating = 85
+
+        [[params.skills.list]]
+        skill = "AWS"
+        skillrating = 75
+
+        [[params.skills.list]]
+        skill = "Azure"
+        skillrating = 40
+        
+        [[params.skills.list]]
+        skill = "PowerShell"
+        skillrating = 75
+
+        [[params.skills.list]]
+        skill = "Python"
+        skillrating = 45
+
+        [[params.skills.list]]
+        skill = "Terraform"
+        skillrating = 50
