@@ -1,7 +1,6 @@
 # samueljkeller.com – Personal Portfolio & Online Resume
 
 ![Website preview](https://raw.githubusercontent.com/samueljkeller/samueljkeller/main/static/images/preview.png)
-<!-- ↑ Replace this with a real screenshot: save one in /static/preview.png and commit it -->
 
 This is the complete source code for **samueljkeller.com** — my personal portfolio website and online resume.
 
