@@ -67,9 +67,6 @@ disableKinds = ["taxonomy"]
 
         [[params.hobbies.list]]
         interest = "Traveling"
-		
-		[[params.hobbies.list]]
-        interest = "Placeholder"
 
         [[params.hobbies.list]]
         interest = "Tabletop Gaming"
