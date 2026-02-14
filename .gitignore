@@ -1,0 +1,15 @@
+# Hugo generated output directory - rebuilt fresh in CI every time
+public/
+
+# Hugo's processed asset cache (images, CSS/JS bundles, fingerprints)
+# Safe to ignore; CI will regenerate it quickly
+resources/
+
+# macOS system files (invisible junk from Finder)
+.DS_Store
+
+# Optional additions below — uncomment if you encounter these
+# /node_modules/               # If you run npm install locally for Tailwind dev
+# package-lock.json            # If you prefer not to commit lockfile (reproducible via package.json)
+# .hugo_build.lock             # Hugo's build lock file (prevents concurrent build issues)
+# /dist/                       # If you ever change publishDir to "dist" in hugo.toml
